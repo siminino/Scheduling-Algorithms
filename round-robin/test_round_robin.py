@@ -12,7 +12,5 @@ class RoundRobinTestCase(unittest.TestCase):
     def test_should_have_quantum(self):
         self.assertEqual(self.schedule.quantum, 2)
 
-    def test_should_add_process_to_fifos_process(self):
-        
 
 unittest.main()
