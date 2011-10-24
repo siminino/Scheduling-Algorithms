@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 class Process:
     def __init__(self, task):
         self.task = task
