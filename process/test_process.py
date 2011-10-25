@@ -24,4 +24,3 @@ class ProcessTestCase(unittest.TestCase):
         self.process.run_time(30)
         self.assertEqual(self.process.task, 0)
 
-unittest.main()
