@@ -23,5 +23,3 @@ class ProcessTestCase(unittest.TestCase):
     def test_run_process_with_time_greater_then_tasks_should_close_process(self):
         self.process.run_time(30)
         self.assertEqual(self.process.task, 0)
-
-unittest.main()
