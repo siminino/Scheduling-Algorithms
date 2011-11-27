@@ -12,3 +12,7 @@ class Process:
             self.task -= 1
             if not self.task:
                 return False
+
+    def run_all_process(self):
+        while self.task:
+            self.run()
